@@ -1,0 +1,47 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&family=Maven+Pro&family=Montserrat:wght@300&family=Open+Sans:wght@600&family=Poppins&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+} */
+
+.l-box-container {
+  height: 100vh;
+
+  background-color: #edeff0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.l-logo-img {
+  /* clip-path: circle(); */
+
+  width: 12vh;
+  margin-top: 20px;
+}
+.l-form-field {
+  display: flex;
+  height: 20vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  /* border: 1px solid black; */
+}
+.l-link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  flex-direction: column;
+}
+.l-login-btn {
+  color: white;
+}

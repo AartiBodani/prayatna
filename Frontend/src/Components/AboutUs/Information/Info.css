@@ -1,0 +1,19 @@
+
+.info-pic
+{
+  width: 100%;
+  height: auto;
+  margin:auto;
+  border-radius: 10px;
+  filter: grayscale(100%);
+}
+
+@media screen and (max-width:400px) {
+
+  .info_title >h1{
+    font-size: 35px;
+  }
+  
+}
+
+

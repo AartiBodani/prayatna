@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+  color: blue;
+}
+
+nav {
+  color: blue;
+}
+
+nav ul li {
+  color: blue;
+}
+
+.images {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+label {
+  /* height: 10%; */
+  color: blue;
+}
+
+.ngoname {
+  color: red;
+}

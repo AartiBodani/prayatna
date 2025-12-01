@@ -1,0 +1,50 @@
+.up_first_container{
+    background-color: #012348;
+    color: white;
+    padding: 10px;
+    max-width: 450px;
+    margin: 0 auto;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column;
+    justify-content: left;
+    align-items: left; */
+    position: relative;
+    border-radius: 15px 15px 0 0;
+}
+.Profile_update{
+    text-align: left;
+    margin-left: 15px;
+
+}
+.info_container{
+    height: auto;
+    padding: 10px;
+    max-width: 450px;
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+    border-radius: 45px;
+    background-color: white;
+}
+.up-inp-container{
+    /* width: 450px; */
+}
+/* .up_submit_btn_container{
+    display: flex;
+    justify-content: center;
+} */
+.up_submit_btn{
+   background-color: #012348;
+   border: none;
+   padding: 10px;
+   color: white;
+   border-radius: 15px;
+}
+.up_submit_btn:hover{
+    background-color: #305074;
+}
+/* .up_submit_btn:active{
+    background-color: #305074;
+} */

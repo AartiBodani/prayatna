@@ -1,0 +1,13 @@
+.ngo_body {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #e4e9ff;
+}
+
+.ngo_card {
+  border-radius: 10px;
+  color: #0e5e6f;
+  border: 2px solid green;
+  outline: none;
+}

@@ -1,0 +1,44 @@
+.tog-reg-spn {
+  text-decoration: underline;
+  text-decoration-color: rgba(151, 152, 155, 0.993);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+.reg-main-form-div {
+  /* background: linear-gradient(
+    45deg,
+    rgba(9, 9, 121, 0.8282270671940651) 25%,
+    rgba(6, 78, 166, 0.8394315489867822) 59%,
+    rgba(70, 130, 173, 0.9206640419839811) 90%
+  ); */
+  height: auto;
+  border-radius: 15px;
+}
+
+.chk_lbl {
+  /* margin-top: 4.5px; */
+  margin-left: 5.5px;
+  color: black;
+}
+.toggle-bg-div {
+  background: url("../../Images/RegImag.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  /* height: 100%; */
+  /* margin-right: 40px; */
+}
+
+.radios {
+  justify-content: center;
+  align-items: center;
+}
+
+.checks {
+  padding-bottom: 5px;
+}
+
+.check_2 {
+  margin-left: 17px;
+}

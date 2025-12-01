@@ -1,0 +1,11 @@
+.vol-gender {
+    margin-left: 10px;
+  }
+  .volunteer_img > img {
+    margin-top: 170px;
+  }
+  @media screen and (max-width: 370px) {
+    .vol-label_gender {
+      font-size: 14px;
+    }
+  }

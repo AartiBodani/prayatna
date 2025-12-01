@@ -1,0 +1,32 @@
+.change_inner {
+  max-width: 550px;
+  margin: 0 auto;
+}
+.change_form_field {
+  border-radius: 10px;
+}
+
+.change_btn_con {
+  display: flex;
+  justify-content: center;
+}
+.change_sub {
+  margin: 5px;
+  padding: 15px 30px;
+  width: 40%;
+  border: none;
+  border-radius: 10px;
+  background-color: #0c7ef7bd;
+  color: white;
+}
+.change_sub:hover {
+  background-color: #0c7ef79b;
+}
+@media screen and (max-width:500px) {
+    .change_sub{
+        width: 60%;
+        padding: 10px 20px;
+        margin: 0px;
+
+    }
+}

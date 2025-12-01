@@ -1,0 +1,27 @@
+.use-input_field {
+  width: 80%;
+  margin: auto;
+}
+
+.user_form {
+  width: 100%;
+  margin: auto;
+}
+
+.reg-Reg_btn {
+  border: none;
+  /* width: 20%; */
+  padding: 10px 60px;
+  border-radius: 15px;
+  font-size: 18px;
+  /* width:250px; */
+  transition: all 100ms;
+}
+.user-inp-con .form-control:focus {
+  box-shadow: none;
+  border-color: black;
+}
+.reg-Reg_btn:hover {
+  background-color: #f0f4f6;
+  /* color:white; */
+}

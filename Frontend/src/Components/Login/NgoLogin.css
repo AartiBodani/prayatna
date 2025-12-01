@@ -1,0 +1,152 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cinzel+Decorative&family=Maven+Pro&family=Montserrat:wght@300&family=Open+Sans:wght@600&family=Poppins&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 600;
+ 
+} */
+
+.l-box-container {
+  /* border: 1px solid black; */
+  height: 100vh;
+  /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1675%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='url(%23SvgjsLinearGradient1676)'%3e%3c/rect%3e%3cpath d='M22.424%2c553.699C50.115%2c554.559%2c80.378%2c551.84%2c95.893%2c528.888C112.99%2c503.595%2c113.284%2c469.236%2c96.954%2c443.44C81.557%2c419.119%2c51.2%2c412.12%2c22.424%2c412.832C-4.882%2c413.508%2c-32.094%2c423.457%2c-45.981%2c446.977C-60.08%2c470.855%2c-58.508%2c501.211%2c-43.544%2c524.557C-29.641%2c546.249%2c-3.329%2c552.899%2c22.424%2c553.699' fill='rgba(231%2c 185%2c 255%2c 0.75)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M273.564%2c126.35C295.1%2c126.259%2c314.599%2c113.012%2c324.29%2c93.78C333.145%2c76.206%2c327.672%2c55.974%2c317.52%2c39.116C307.756%2c22.903%2c292.484%2c9.055%2c273.564%2c9.548C255.278%2c10.024%2c242.907%2c25.678%2c233.405%2c41.308C223.365%2c57.823%2c213.841%2c76.734%2c222.094%2c94.21C231.351%2c113.813%2c251.885%2c126.441%2c273.564%2c126.35' fill='rgba(231%2c 185%2c 255%2c 0.75)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M144.84525601839738 204.99535683925066L54.223479773779644 309.2437852373103 158.4719081718393 399.865561481928 249.093684416457 295.6171330838684z' fill='rgba(231%2c 185%2c 255%2c 0.75)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M705.1963191315538 380.0559419317293L585.2029983520404 316.2543615368808 521.4014179571919 436.24768231639416 641.3947387367052 500.04926271124265z' fill='rgba(231%2c 185%2c 255%2c 0.75)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M893.8644134015759 290.886027124849L807.415019382084 262.7969162805169 779.3259085377518 349.2463103000088 865.7753025572438 377.33542114434096z' fill='rgba(231%2c 185%2c 255%2c 0.75)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1369.5312180819976 189.25575337777028L1414.008943471019 235.31378630655442 1460.8571301696845 145.56818175863015z' fill='rgba(231%2c 185%2c 255%2c 0.75)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1675'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='15.28%25' y1='-39.29%25' x2='84.72%25' y2='139.29%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1676'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(182%2c 63%2c 240%2c 0.75)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e"); */
+  /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M1333.943%2c512.567C1371.37%2c510.375%2c1408.849%2c498.541%2c1428.192%2c466.425C1448.105%2c433.363%2c1444.416%2c392.741%2c1426.794%2c358.403C1407.26%2c320.339%2c1376.679%2c284.807%2c1333.943%2c282.773C1288.308%2c280.602%2c1247.617%2c309.418%2c1224.412%2c348.773C1200.808%2c388.805%2c1192.578%2c440.082%2c1218.411%2c478.713C1242.32%2c514.467%2c1291.006%2c515.082%2c1333.943%2c512.567' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M200.65951635625754 135.5936441794739L118.06583356004666 224.1645252558344 206.63671463640713 306.75820805204523 289.230397432618 218.18732697568478z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M167.60473135157562 449.3385219334184L289.6449151902089 381.6905433907041 221.99693664749458 259.65035955207077 99.9567528088613 327.2983380947851z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M939.6153741475603 82.89811378130153L1013.0534528472058 187.99158566078216 1062.1841856845067 87.25865538485837z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1261.458%2c593.877C1290.397%2c594.046%2c1315.535%2c574.472%2c1328.686%2c548.694C1340.728%2c525.09%2c1336.573%2c497.071%2c1322.202%2c474.809C1309.053%2c454.439%2c1285.702%2c444.788%2c1261.458%2c444.551C1236.727%2c444.31%2c1211.918%2c452.747%2c1198.625%2c473.603C1184.343%2c496.011%2c1183.273%2c524.365%2c1195.577%2c547.917C1208.866%2c573.354%2c1232.759%2c593.709%2c1261.458%2c593.877' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M490.587%2c379.841C536.162%2c382.643%2c576.448%2c351.326%2c598.48%2c311.332C619.737%2c272.744%2c619.292%2c225.584%2c596.244%2c188.038C574.195%2c152.119%2c532.702%2c133.951%2c490.587%2c135.568C451.216%2c137.08%2c416.61%2c160.862%2c398.105%2c195.646C380.682%2c228.397%2c386.813%2c266.19%2c403.459%2c299.343C422.475%2c337.216%2c448.288%2c377.241%2c490.587%2c379.841' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e"); */
+  /* background:url(../images/pexels-archie-binamira-913215.jpg); */
+  /* background-color: #6bbbec; */
+  /* background-color: #69bcf0; */
+  background-color: #edeff0;
+  /* background-color: #4F517D; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.l-logo-img {
+  /* clip-path: circle(); */
+
+  width: 12vh;
+  margin-top: 20px;
+}
+.l-form-field {
+  display: flex;
+  height: 20vh;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  /* border: 1px solid black; */
+}
+.l-link-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  flex-direction: column;
+}
+.l-login-btn {
+  color: white;
+}
+.l-forgot-password {
+  text-decoration: none;
+  margin-top: -10px;
+  font-size: 2vh;
+  font-weight: 600;
+  color: #1565c0;
+}
+.l-forgot-password:hover {
+  text-decoration: underline;
+  /* font-weight: 500; */
+  color: #1565c0;
+}
+.l-signup {
+  color: #1f1f1f;
+  text-align: center;
+  margin-top: 2vh;
+  font-size: 2vh;
+}
+.l-signup a {
+  color: #1565c0;
+  text-decoration: none;
+}
+.l-signup a:hover {
+  color: #1565c0;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.log-switch {
+  --button-width: 3.3em;
+  --button-height: 1.3em;
+  --toggle-diameter: 1.5em;
+  --button-toggle-offset: calc(
+    (var(--button-height) - var(--toggle-diameter)) / 2
+  );
+  --toggle-shadow-offset: 10px;
+  --toggle-wider: 3em;
+  --color-grey: #f1f1f1;
+  --color-green: #4296f4;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.log-slider {
+  display: inline-block;
+  width: var(--button-width);
+  height: var(--button-height);
+  background-color: var(--color-grey);
+  border-radius: calc(var(--button-height) / 2);
+  position: relative;
+  transition: 0.3s all ease-in-out;
+}
+
+.log-slider::after {
+  content: "";
+  display: inline-block;
+  width: var(--toggle-diameter);
+  height: var(--toggle-diameter);
+  background-color: rgb(32, 30, 30);
+  border-radius: calc(var(--toggle-diameter) / 2);
+  position: absolute;
+  top: var(--button-toggle-offset);
+  transform: translateX(var(--button-toggle-offset));
+  box-shadow: var(--toggle-shadow-offset) 0
+    calc(var(--toggle-shadow-offset) * 4) rgba(0, 0, 0, 0.1);
+  transition: 0.3s all ease-in-out;
+}
+
+.log-switch input[type="checkbox"]:checked + .log-slider {
+  background-color: var(--color-green);
+}
+
+.log-switch input[type="checkbox"]:checked + .log-slider::after {
+  transform: translateX(
+    calc(
+      var(--button-width) - var(--toggle-diameter) - var(--button-toggle-offset)
+    )
+  );
+  box-shadow: calc(var(--toggle-shadow-offset) * -1) 0
+    calc(var(--toggle-shadow-offset) * 4) rgba(0, 0, 0, 0.1);
+}
+
+.log-switch input[type="checkbox"] {
+  display: none;
+}
+
+.log-switch input[type="checkbox"]:active + .log-slider::after {
+  width: var(--toggle-wider);
+}
+
+.log-switch input[type="checkbox"]:checked:active + .log-slider::after {
+  transform: translateX(
+    calc(
+      var(--button-width) - var(--toggle-wider) - var(--button-toggle-offset)
+    )
+  );
+}

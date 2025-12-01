@@ -1,0 +1,26 @@
+/* .main-container {
+} */
+
+.steps-img-fluid {
+  width: auto;
+  height: 500px;
+}
+
+.steps-container {
+  background: url("../../Images/steps_2.png");
+  background-size: 80% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: scale(1.01);
+}
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* @media screen and (max-width: 780px) {
+  .steps-container {
+    display: block;
+    height: 500px;
+  }
+} */

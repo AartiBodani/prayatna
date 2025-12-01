@@ -1,0 +1,73 @@
+.data-bg_blur {
+  background-image: linear-gradient(
+      rgba(31, 31, 31, 0.8),
+      rgba(31, 31, 31, 0.8)
+    ),
+    url("./../../Images//NGOdeshboard.jpg");
+  height: 40vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data-ngo_heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.data-Ngo_name {
+  color: rgb(225, 225, 225);
+  font-size: 50px;
+}
+
+.data-btn_edit {
+  background-color: transparent;
+  border: 1px solid rgb(225, 225, 225);
+  text-align: center;
+  padding: 10px 30px;
+  color: rgb(225, 225, 225);
+  font-size: 16px;
+  border-radius: 5px;
+  /* width: auto; */
+}
+.data-btn_change {
+  display: inline-block;
+  margin-left: 15px;
+  background-color: rgb(225, 225, 225);
+  color: black;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  transition: all 0.3s;
+}
+.data-btn_change:hover {
+  color: rgb(225, 225, 225);
+  background-color: transparent;
+  border: 1px solid rgb(225, 225, 225);
+}
+
+@media screen and (max-width: 450px) {
+  .data-btn_two {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .data-btn_change {
+    margin-left: 0px;
+    width: 200px;
+  }
+  .data-Ngo_name {
+    font-size: 40px;
+  }
+  .data-btn_edit {
+    width: 200px;
+  }
+}

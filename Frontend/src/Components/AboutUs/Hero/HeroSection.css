@@ -1,0 +1,70 @@
+.hero-section {
+    background-image: url('https://images.unsplash.com/photo-1516585427167-9f4af9627e6c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBvb3IlMjBjaGlsZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60');
+    background-size:cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px #000;
+    color: white;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .hero-section {
+      height: 300px;
+    }
+  
+    .hero-section h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+  
+}
+
+.slogan >p{
+    margin-top:50%;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: -10px;
+    text-align: center;
+}
+  
+.slogan >h2::after{
+    content: "We are Provide help to boost your life ";
+    animation:slogan 10s infinite; 
+    color:white;
+    text-align: center;
+}
+  
+@keyframes slogan{
+    20%{
+        content: "Stay kind it makes you beautiful";
+    }
+    40%{
+        content: "Together we weill rebuild our future";
+    }
+    60%{
+        content: "Stay kind it makes you beautiful";
+    }
+    80%{
+        content: "I can`t but we can";
+    }
+} 
+
+@media screen and (max-width : 400px){
+
+    .slogan > h2{
+        font-size: 16px;
+    }
+}
